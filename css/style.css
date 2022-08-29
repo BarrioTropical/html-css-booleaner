@@ -8,7 +8,6 @@ header{
     background-image: repeat;
     background-size: 30%;
     background-color: #4ea0ff;
-
 }
 /*Stile div images*/
 .logo{
@@ -17,10 +16,16 @@ header{
 }
 #images-article{
     width: 100%;
+    padding-top: 10px;
 }
+.Autore{
+    color: grey;
+}
+
 .caption{
     font-size: 10px;
 }
+
 /*Stile sezione articolo*/
 .testo-evidenziato{
     background-color: yellow;
@@ -58,13 +63,14 @@ h2{
     min-height: 208px;
 }
 
-.text-footer{
-    padding: 10px;
-}
-
 #section-footer-2{
     background: url(/img/graph.jpg);
     color: white;
     width: 312px;
     min-height: 208px;
 }
+
+.text-footer{
+    padding: 10px;
+}
+
