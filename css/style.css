@@ -4,11 +4,13 @@ body{
 }
 
 header{
-    background-image: url("img/pattern.png");
-    background: repeat;
+    background-image: url("/img/pattern.png");
+    background-image: repeat;
+    background-size: 30%;
     background-color: #4ea0ff;
 
 }
+/*Stile div images*/
 .logo{
     width: 20%;
     padding: 20px 3px 0px 0px;
@@ -19,7 +21,50 @@ header{
 .caption{
     font-size: 10px;
 }
-
+/*Stile sezione articolo*/
 .testo-evidenziato{
     background-color: yellow;
+}
+
+/*Stile tabella*/
+.table{
+    text-align: left;
+}
+.thead{
+    background-color: #4ea0ff;
+    color: white;
+}
+.col1{
+    width: 20%;
+}
+
+.col2{
+    width: 20%;
+}
+
+.row-table{
+    background-color: #b1e5f2;
+}
+/*Stile footer*/
+h2{
+    color: grey;
+    font-size: 20px;
+}
+
+#section-footer-1{
+    background: url(/img/monitor.jpg);
+    color: white;
+    width: 312px;
+    min-height: 208px;
+}
+
+.text-footer{
+    padding: 10px;
+}
+
+#section-footer-2{
+    background: url(/img/graph.jpg);
+    color: white;
+    width: 312px;
+    min-height: 208px;
 }
