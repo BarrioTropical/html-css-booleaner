@@ -1,3 +1,8 @@
+
+body{
+    width: 100%;
+}
+
 header{
     background-image: url("img/pattern.png");
     background: repeat;
@@ -7,4 +12,7 @@ header{
 .logo{
     width: 20%;
     padding: 20px 3px 0px 0px;
+}
+#images-article{
+    width: 100%;
 }
