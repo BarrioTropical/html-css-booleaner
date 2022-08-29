@@ -16,3 +16,10 @@ header{
 #images-article{
     width: 100%;
 }
+.caption{
+    font-size: 10px;
+}
+
+.testo-evidenziato{
+    background-color: yellow;
+}
